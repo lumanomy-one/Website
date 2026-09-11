@@ -1,0 +1,45 @@
+:root {
+  --page-bg: #050607;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background: var(--page-bg);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.landing-page {
+  width: 100%;
+  margin: 0 auto;
+  background: var(--page-bg);
+  text-align: center;
+  line-height: 0;
+}
+
+.landing-image {
+  display: block;
+  width: 100%;
+  max-width: 1024px;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+@media (min-width: 1025px) {
+  .landing-page {
+    max-width: 1024px;
+  }
+}
