@@ -1,0 +1,7 @@
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;width:100%;min-height:100%;background:#000}
+body{overflow-x:hidden}
+.poster-shell{position:relative;width:min(100%,1024px);margin:0 auto;line-height:0;background:#000}
+.poster{display:block;width:100%;height:auto;margin:0}
+.contact-hotspot{position:absolute;left:39.2%;top:81.1%;width:21.8%;height:4.8%;z-index:10;display:block;cursor:pointer}
+.contact-hotspot:focus-visible{outline:2px solid #d8ad38;outline-offset:3px}
